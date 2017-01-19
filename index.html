@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kyle's PeopleSoft Project Explorer</title>
+    <meta name="description" content="Kyle's AppDesigner Package Explorer">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdn.metalab.csun.edu/metaphor/css/metaphor.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="primary-nav--cream">
+        <div class="container">
+            <div class="primary-nav__mobile">
+                <div class="primary-nav__btn">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <div class="primary-nav__brand"><span class="sr-only">California State University, Northridge (CSUN)</span></div>
+            </div>
+            <ul class="primary-nav__links">
+                <li><a class="primary-nav__link" href="../">Utility</a></li>
+                <li><a class="primary-nav__link active" href="#">PS Project Explorer</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="content">
+        <textarea id="user_input" name="user_input"></textarea>
+        <h1 id="project-name"></h1>
+        <dl class="accordion" id="result"> <dt class="accordion__header"> Results show up here </dt>
+            <dd class="accordion__content">
+                <p>Details about the element are shown here</p>
+            </dd> <dt class="accordion__header"> Click on a list element to expand </dt>
+            <dd class="accordion__content">
+                <p>Details about the element are shown here</p>
+            </dd>
+        </dl>
+        <p><b style="font-size: 1.3em">What this does</b></p>
+        <p>This services is designed to help you explore PeopleSoft App Designer files. Simply drag the XML generated from the 'Copy Project > To File...' menu option in App Designer and the results list will populate with the list of items in the file. Click on the name of an element to view the contents of that object. This project and site is owned, operated, and maintained by <a href="http://www.csun.edu/it/people/kyle-shaver" target="_blank" rel="noopener noreferrer">Kyle Shaver</a>.</p>
+        <p><b style="font-size: 1.3em">Requires a modern browser, like <a href="https://www.google.com/chrome/browser/desktop/" target="_blank" rel="noopener noreferrer">Google Chrome</a> or <a href="https://www.mozilla.org/en-US/firefox/" target="_blank" rel="noopener noreferrer">Mozilla Firefox</a>.</b></p>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="js/ps_parser.js"></script>
+        <script type="text/jscript">
+            
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="http://cdn.metalab.csun.edu/metaphor/js/metaphor.js"></script>
+    </div>
+</body>
+
+</html>

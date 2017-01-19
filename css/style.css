@@ -1,0 +1,50 @@
+body {
+    background: rgb(246, 246, 246);
+    margin: 0px;
+    padding: 0;
+    min-width: 400px;
+}
+
+code {
+    color: #676767;
+}
+
+body,
+textarea {
+    font-family: 'Work Sans', sans-serif;
+}
+
+#user_input {
+    width: 100%;
+    margin: 1em 0;
+    border: 1px solid rgb(200, 200, 200);
+    padding: 6px 10px;
+    background: #fff;
+    font-size: 1.1em;
+}
+
+#process {
+    margin-bottom: 20px;
+}
+
+#user_input {
+    height: 80px;
+}
+
+#content {
+    width: 100%;
+    padding: 0 1em;
+}
+
+#project-name {
+    display: none;
+}
+
+.selectable {
+    color: #d00d2d;
+    transition: color 0.05s linear;
+}
+
+.selectable:hover {
+    color: #E64B36;
+}
